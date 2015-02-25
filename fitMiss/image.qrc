@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/food.png</file>
+        <file>png/food_.png</file>
+        <file>png/jilu.png</file>
+        <file>png/jilu_.png</file>
+        <file>png/kaluli.png</file>
+        <file>png/kaluli_.png</file>
+        <file>png/lishi.png</file>
+        <file>png/lishi_.png</file>
+        <file>png/recordweight.png</file>
+        <file>png/recordweight_.png</file>
+        <file>png/toolbmi.png</file>
+        <file>png/toolbmi_.png</file>
+        <file>png/toolcal2kg.png</file>
+        <file>png/toolcal2kg_.png</file>
+        <file>png/toolhealthweight.png</file>
+        <file>png/toolhealthweight_.png</file>
+        <file>png/toolshengcai.png</file>
+        <file>png/toolshengcai_.png</file>
+        <file>png/yundong.png</file>
+        <file>png/yundong_.png</file>
+        <file>png/splash.png</file>
+        <file>png/bj2.png</file>
+        <file>png/bj5.png</file>
+        <file>png/bj51.png</file>
+        <file>png/transparent.png</file>
+    </qresource>
+</RCC>

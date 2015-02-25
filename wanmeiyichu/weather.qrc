@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>weather/0.png</file>
+        <file>weather/1.png</file>
+        <file>weather/2.png</file>
+        <file>weather/3.png</file>
+        <file>weather/4.png</file>
+        <file>weather/5.png</file>
+        <file>weather/6.png</file>
+        <file>weather/7.png</file>
+        <file>weather/8.png</file>
+        <file>weather/9.png</file>
+        <file>weather/10.png</file>
+        <file>weather/11.png</file>
+        <file>weather/12.png</file>
+        <file>weather/13.png</file>
+        <file>weather/14.png</file>
+        <file>weather/15.png</file>
+        <file>weather/16.png</file>
+        <file>weather/17.png</file>
+        <file>weather/18.png</file>
+        <file>weather/19.png</file>
+        <file>weather/20.png</file>
+        <file>weather/21.png</file>
+        <file>weather/22.png</file>
+        <file>weather/23.png</file>
+        <file>weather/24.png</file>
+        <file>weather/25.png</file>
+        <file>weather/26.png</file>
+        <file>weather/27.png</file>
+        <file>weather/28.png</file>
+        <file>weather/29.png</file>
+        <file>weather/30.png</file>
+        <file>weather/31.png</file>
+        <file>weather/53.png</file>
+        <file>weather/54.png</file>
+        <file>weather/weather_background.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/bg.png</file>
+        <file>images/bgdown.png</file>
+        <file>images/bgup.png</file>
+        <file>images/button1.png</file>
+        <file>images/button2.png</file>
+        <file>images/button3.png</file>
+        <file>images/color1_1.png</file>
+        <file>images/color1_2.png</file>
+        <file>images/color2_1.png</file>
+        <file>images/color2_2.png</file>
+        <file>images/color3_1.png</file>
+        <file>images/color3_2.png</file>
+        <file>images/color4_1.png</file>
+        <file>images/color4_2.png</file>
+        <file>images/color5_1.png</file>
+        <file>images/color5_2.png</file>
+        <file>images/color6_1.png</file>
+        <file>images/color6_2.png</file>
+        <file>images/colorall.png</file>
+        <file>images/cup1_1.png</file>
+        <file>images/cup1_2.png</file>
+        <file>images/cup2_1.png</file>
+        <file>images/cup2_2.png</file>
+        <file>images/cup3_1.png</file>
+        <file>images/cup3_2.png</file>
+        <file>images/cup4_1.png</file>
+        <file>images/cup4_2.png</file>
+        <file>images/cup5_1.png</file>
+        <file>images/cup5_2.png</file>
+        <file>images/cup6_1.png</file>
+        <file>images/cup6_2.png</file>
+        <file>images/cupall.png</file>
+        <file>images/heart.png</file>
+        <file>images/heart_.png</file>
+        <file>images/man1.png</file>
+        <file>images/man2.png</file>
+        <file>images/man3.png</file>
+        <file>images/man4.png</file>
+        <file>images/man5.png</file>
+        <file>images/man6.png</file>
+        <file>images/null.png</file>
+        <file>images/start.png</file>
+        <file>images/think.png</file>
+    </qresource>
+</RCC>

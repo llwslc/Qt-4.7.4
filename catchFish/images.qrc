@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/bg.png</file>
+        <file>images/bullet.png</file>
+        <file>images/cannon.png</file>
+        <file>images/coinAni.png</file>
+        <file>images/exit.png</file>
+        <file>images/fish1.png</file>
+        <file>images/fish2.png</file>
+        <file>images/fish3.png</file>
+        <file>images/fish4.png</file>
+        <file>images/fish5.png</file>
+        <file>images/fish6.png</file>
+        <file>images/fish7.png</file>
+        <file>images/fish8.png</file>
+        <file>images/fish9.png</file>
+        <file>images/fish10.png</file>
+        <file>images/fish11.png</file>
+        <file>images/game.png</file>
+        <file>images/highscore.png</file>
+        <file>images/instruction.png</file>
+        <file>images/option.png</file>
+        <file>images/start.png</file>
+        <file>images/web.png</file>
+        <file>images/pause.png</file>
+        <file>images/bar.png</file>
+        <file>images/about.png</file>
+    </qresource>
+</RCC>

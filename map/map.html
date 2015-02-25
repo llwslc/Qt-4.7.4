@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=gb2312"/>
+<style type="text/css">
+html {height: auto;}
+body {height: auto;margin: 0;padding: 0;}
+#map_canvas {width:1000px;height: 500px;position: absolute;}
+@media print {#map_canvas {height: 950px;}}
+</style>
+<title>搜狗地图 JavaScript API</title>
+<script type="text/javascript" src="http://api.go2map.com/maps/js/api_v2.5.1.js"></script>
+<script type="text/javascript">
+
+var coordinatex = 0;
+var coordinatey = 0;
+var zoomlevel = 4;
+var myLatLng = new sogou.maps.Point(coordinatex,coordinatey);
+var myOptions = {
+	zoom: zoomlevel,
+	center: myLatLng
+};
+var map;
+var nav = new sogou.maps.Driving();
+
+function initialize()
+{
+	map = new sogou.maps.Map(document.getElementById("map_canvas"), myOptions);
+}
+
+//地图定位
+function myPlace(x, y, z)
+{
+	coordinatex = x;
+	coordinatey = y;
+	zoomlevel = z;
+	
+	map.setCenter(new sogou.maps.Point(coordinatex, coordinatey), zoomlevel);
+}
+
+//getZoom方法示例
+function getZoom()
+{
+	return map.getZoom()
+}
+
+//setZoom方法示例
+function setZoom(x)
+{
+    //取值范围：0~18
+    map.setZoom(x)
+}
+
+//setMapTypeId方法示例
+function setMapTypeId_ROADMAP()
+{
+    //设置地图类型，如：
+    //sogou.maps.MapTypeId.ROADMAP 普通地图
+    //sogou.maps.MapTypeId.SATELLITE 卫星地图
+    //sogou.maps.MapTypeId.HYBRID 卫星和路网混合地图
+    map.setMapTypeId(sogou.maps.MapTypeId.ROADMAP)
+}
+
+function setMapTypeId_SATELLITE()
+{
+    //设置地图类型，如：
+    //sogou.maps.MapTypeId.ROADMAP 普通地图
+    //sogou.maps.MapTypeId.SATELLITE 卫星地图
+    //sogou.maps.MapTypeId.HYBRID 卫星和路网混合地图
+    map.setMapTypeId(sogou.maps.MapTypeId.SATELLITE)
+}
+
+function setMapTypeId_HYBRID()
+{
+    //设置地图类型，如：
+    //sogou.maps.MapTypeId.ROADMAP 普通地图
+    //sogou.maps.MapTypeId.SATELLITE 卫星地图
+    //sogou.maps.MapTypeId.HYBRID 卫星和路网混合地图
+    map.setMapTypeId(sogou.maps.MapTypeId.HYBRID)
+}
+
+//自驾路线
+function setRouteLine(des, org)
+{
+	var request={
+		'map': map,
+		'destination': des,
+		'origin': org,
+		'tactic': 0      //驾车策略。 0： 距离短；1 ：时间短 默认策略 （不选为1）；2 ：不走高速   
+	}
+	nav.route(request, callback);
+}
+
+//清除自驾路线
+function callback(result){
+	var option={
+		   'map':map,
+		   'drivingResult': result
+	   };
+	var dRenderer = new sogou.maps.DrivingRenderer(option);
+	sogou.maps.event.addDomListener(document.getElementById('removeLine'), 'click', function(){dRenderer.removeRoute()});
+}
+
+function clearRoute()
+{
+	lnk = document.getElementById("removeLine");
+	lnk.click();
+}
+
+//当前视野内搜索
+function searchPoint(keywordPoint)
+{
+	var sRender=new sogou.maps.SearchRenderer();
+	var request={
+			'map': map,
+			'what':{
+			   'keyword': keywordPoint
+			},
+			'range':{
+				'boundFlag': 2   //当前视野搜索
+			}
+		};
+	var search = new sogou.maps.Search();//创建搜索实例
+	search.search(request);
+	search.setRenderer(sRender);
+	sogou.maps.event.addDomListener(document.getElementById('removePoint'),'click',function(){sRender.clearResultFeatures()});
+}
+
+function clearPoint()
+{
+	lnk = document.getElementById("removePoint");
+	lnk.click();
+}
+
+</script>
+</head>
+<body onload="initialize()">
+<div id="map_canvas"></div>
+<input type='button' value='清除路线' id='removeLine'/>
+<input type='button' value='清除标记' id='removePoint'/>
+</body>
+</html>

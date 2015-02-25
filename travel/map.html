@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=gb2312"/>
+<style type="text/css">
+html {height: auto;}
+body {height: auto;margin: 0;padding: 0;}
+#map_canvas {width:1000px;height: 500px;position: absolute;}
+@media print {#map_canvas {height: 950px;}}
+</style>
+<title>搜狗地图 JavaScript API示例: Hello World</title>
+<script type="text/javascript" src="http://api.go2map.com/maps/js/api_v2.5.1.js"></script>
+<script type="text/javascript">
+function initialize()
+{
+    var map = new sogou.maps.Map(document.getElementById("map_canvas"),{});
+}
+</script>
+</head>
+<body onload="initialize()">
+  <div id="map_canvas"></div>
+</body>
+</html>

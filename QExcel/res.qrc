@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/logo.png</file>
+        <file>xls/sum.xls</file>
+    </qresource>
+</RCC>

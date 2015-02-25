@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminSystem</class>
+ <widget class="QMainWindow" name="adminSystem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>597</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>店长</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>111</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>菜单栏</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>商品管理</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>仓库管理</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>190</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>会员管理</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>350</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>营业额统计</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>430</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>员工管理</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>270</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>打卡记录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_12">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>510</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>退出登录</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>611</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>列表</string>
+    </property>
+    <widget class="QTableView" name="tableView">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>551</width>
+       <height>241</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>151</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>290</y>
+       <width>361</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>商品信息</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>480</y>
+      <width>611</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>功能区</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>添加信息</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>删除选中</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>30</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>修改选中</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>30</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>提交信息</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>30</y>
+       <width>71</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{border-image:url(:/png/button_1.png);}
+QPushButton:hover{border-image: url(:/png/button_2.png);}
+QPushButton:pressed{border-image: url(:/png/button_3.png);}</string>
+     </property>
+     <property name="text">
+      <string>刷新信息</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

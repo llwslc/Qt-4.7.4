@@ -1,0 +1,17 @@
+INPUT(
+./debug\main.o
+./debug\logdialog.o
+./debug\servedialog.o
+./debug\mydatabase.o
+./debug\admindialog.o
+./debug\cpgl.o
+./debug\rygl.o
+./debug\dishlist.o
+./debug\moc_logdialog.o
+./debug\moc_servedialog.o
+./debug\moc_admindialog.o
+./debug\moc_cpgl.o
+./debug\moc_rygl.o
+./debug\moc_dishlist.o
+./debug\qrc_face.o
+);

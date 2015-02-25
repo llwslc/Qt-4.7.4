@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/back.png</file>
+        <file>image/big.png</file>
+        <file>image/litte.png</file>
+        <file>image/normal.png</file>
+        <file>image/quit.png</file>
+        <file>image/recover.png</file>
+        <file>image/stop.png</file>
+        <file>image/start.png</file>
+        <file>image/open.png</file>
+        <file>image/next1.png</file>
+        <file>image/previous1.png</file>
+        <file>image/zhuan.png</file>
+    </qresource>
+</RCC>

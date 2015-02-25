@@ -1,0 +1,17 @@
+INPUT(
+./release\main.o
+./release\logdialog.o
+./release\servedialog.o
+./release\mydatabase.o
+./release\admindialog.o
+./release\cpgl.o
+./release\rygl.o
+./release\dishlist.o
+./release\moc_logdialog.o
+./release\moc_servedialog.o
+./release\moc_admindialog.o
+./release\moc_cpgl.o
+./release\moc_rygl.o
+./release\moc_dishlist.o
+./release\qrc_face.o
+);

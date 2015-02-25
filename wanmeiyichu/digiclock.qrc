@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>digiclock/0.png</file>
+        <file>digiclock/1.png</file>
+        <file>digiclock/2.png</file>
+        <file>digiclock/3.png</file>
+        <file>digiclock/4.png</file>
+        <file>digiclock/5.png</file>
+        <file>digiclock/6.png</file>
+        <file>digiclock/7.png</file>
+        <file>digiclock/8.png</file>
+        <file>digiclock/9.png</file>
+        <file>digiclock/date_bkg.png</file>
+        <file>digiclock/points.png</file>
+        <file>digiclock/points_transparent.png</file>
+        <file>digiclock/time_bkg.png</file>
+    </qresource>
+</RCC>

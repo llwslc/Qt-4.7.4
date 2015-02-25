@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/title_add_btn_normal.png</file>
+        <file>png/title_add_btn_pressed.png</file>
+        <file>png/title_bar_btn_normal.png</file>
+        <file>png/title_bar_btn_selected.png</file>
+        <file>png/title_btn_group_left_normal.png</file>
+        <file>png/title_btn_group_left_selected.png</file>
+        <file>png/title_btn_group_middle_normal.png</file>
+        <file>png/title_btn_group_middle_selected.png</file>
+        <file>png/title_btn_group_right_normal.png</file>
+        <file>png/title_btn_group_right_selected.png</file>
+        <file>png/title_setting_btn_normal.png</file>
+        <file>png/title_setting_btn_pressed.png</file>
+        <file>png/bk.png</file>
+    </qresource>
+</RCC>

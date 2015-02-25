@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>png/park.png</file>
+        <file>png/user.png</file>
+        <file>png/main.png</file>
+        <file>png/carpark.db</file>
+    </qresource>
+</RCC>

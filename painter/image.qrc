@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/about us.png</file>
+        <file>image/clear.png</file>
+        <file>image/clearmini.png</file>
+        <file>image/eraser.png</file>
+        <file>image/exit.png</file>
+        <file>image/exitmini.png</file>
+        <file>image/Holiday.png</file>
+        <file>image/huabu.png</file>
+        <file>image/new.png</file>
+        <file>image/newmini.png</file>
+        <file>image/open.png</file>
+        <file>image/openmini.png</file>
+        <file>image/print.png</file>
+        <file>image/recovery.png</file>
+        <file>image/rmini.png</file>
+        <file>image/rotate.png</file>
+        <file>image/save as.png</file>
+        <file>image/save.png</file>
+        <file>image/saveasmini.png</file>
+        <file>image/savemini.png</file>
+        <file>image/stretch.png</file>
+        <file>image/tool.png</file>
+        <file>image/zoom in.png</file>
+        <file>image/zoom out.png</file>
+    </qresource>
+</RCC>
